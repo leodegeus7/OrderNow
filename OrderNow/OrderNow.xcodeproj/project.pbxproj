@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD79962B1AD478400051CD95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79962A1AD478400051CD95 /* main.m */; };
+		CD79962E1AD478400051CD95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79962D1AD478400051CD95 /* AppDelegate.m */; };
+		CD7996341AD478400051CD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7996321AD478400051CD95 /* Main.storyboard */; };
+		CD7996361AD478400051CD95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7996351AD478400051CD95 /* Images.xcassets */; };
+		CD7996391AD478400051CD95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7996371AD478400051CD95 /* LaunchScreen.xib */; };
+		CD7996451AD478400051CD95 /* OrderNowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7996441AD478400051CD95 /* OrderNowTests.m */; };
+		CD79964F1AD47BF00051CD95 /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD79964E1AD47BF00051CD95 /* Storyboard2.storyboard */; };
+		CD7996521AD47C9B0051CD95 /* ComidasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7996511AD47C9B0051CD95 /* ComidasTableViewController.m */; };
+		CD7996551AD47CA80051CD95 /* BebidasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7996541AD47CA80051CD95 /* BebidasTableViewController.m */; };
+		CD7996581AD47CB40051CD95 /* SobremesasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7996571AD47CB40051CD95 /* SobremesasTableViewController.m */; };
+		CD79965B1AD47CDA0051CD95 /* ConfirmarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79965A1AD47CDA0051CD95 /* ConfirmarTableViewController.m */; };
+		CD79965E1AD47CEA0051CD95 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79965D1AD47CEA0051CD95 /* TimerViewController.m */; };
+		CD7996611AD47D510051CD95 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7996601AD47D510051CD95 /* CustomTableViewCell.m */; };
+		CD7996631AD47D600051CD95 /* comida.json in Resources */ = {isa = PBXBuildFile; fileRef = CD7996621AD47D600051CD95 /* comida.json */; };
+		CD7996651AD47D740051CD95 /* bebidas.json in Resources */ = {isa = PBXBuildFile; fileRef = CD7996641AD47D740051CD95 /* bebidas.json */; };
+		CD7996671AD47D850051CD95 /* sobremesas.json in Resources */ = {isa = PBXBuildFile; fileRef = CD7996661AD47D850051CD95 /* sobremesas.json */; };
+		CD79966D1AD47E340051CD95 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79966C1AD47E340051CD95 /* DataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD79963F1AD478400051CD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD79961D1AD478400051CD95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7996241AD478400051CD95;
+			remoteInfo = OrderNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD7996251AD478400051CD95 /* OrderNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7996291AD478400051CD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD79962A1AD478400051CD95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD79962C1AD478400051CD95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD79962D1AD478400051CD95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD7996331AD478400051CD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7996351AD478400051CD95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD7996381AD478400051CD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD79963E1AD478400051CD95 /* OrderNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7996431AD478400051CD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7996441AD478400051CD95 /* OrderNowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderNowTests.m; sourceTree = "<group>"; };
+		CD79964E1AD47BF00051CD95 /* Storyboard2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard2.storyboard; sourceTree = "<group>"; };
+		CD7996501AD47C9B0051CD95 /* ComidasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComidasTableViewController.h; sourceTree = "<group>"; };
+		CD7996511AD47C9B0051CD95 /* ComidasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComidasTableViewController.m; sourceTree = "<group>"; };
+		CD7996531AD47CA80051CD95 /* BebidasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BebidasTableViewController.h; sourceTree = "<group>"; };
+		CD7996541AD47CA80051CD95 /* BebidasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BebidasTableViewController.m; sourceTree = "<group>"; };
+		CD7996561AD47CB40051CD95 /* SobremesasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobremesasTableViewController.h; sourceTree = "<group>"; };
+		CD7996571AD47CB40051CD95 /* SobremesasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SobremesasTableViewController.m; sourceTree = "<group>"; };
+		CD7996591AD47CDA0051CD95 /* ConfirmarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmarTableViewController.h; sourceTree = "<group>"; };
+		CD79965A1AD47CDA0051CD95 /* ConfirmarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmarTableViewController.m; sourceTree = "<group>"; };
+		CD79965C1AD47CEA0051CD95 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		CD79965D1AD47CEA0051CD95 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		CD79965F1AD47D510051CD95 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		CD7996601AD47D510051CD95 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		CD7996621AD47D600051CD95 /* comida.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = comida.json; sourceTree = "<group>"; };
+		CD7996641AD47D740051CD95 /* bebidas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bebidas.json; sourceTree = "<group>"; };
+		CD7996661AD47D850051CD95 /* sobremesas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sobremesas.json; sourceTree = "<group>"; };
+		CD79966B1AD47E340051CD95 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		CD79966C1AD47E340051CD95 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7996221AD478400051CD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD79963B1AD478400051CD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD79961C1AD478400051CD95 = {
+			isa = PBXGroup;
+			children = (
+				CD7996271AD478400051CD95 /* OrderNow */,
+				CD7996411AD478400051CD95 /* OrderNowTests */,
+				CD7996261AD478400051CD95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7996261AD478400051CD95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7996251AD478400051CD95 /* OrderNow.app */,
+				CD79963E1AD478400051CD95 /* OrderNowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7996271AD478400051CD95 /* OrderNow */ = {
+			isa = PBXGroup;
+			children = (
+				CD7996681AD47DF60051CD95 /* Model */,
+				CD79966A1AD47E0E0051CD95 /* Controller */,
+				CD7996711AD47E780051CD95 /* View */,
+				CD7996281AD478400051CD95 /* Supporting Files */,
+				CD7996701AD47E630051CD95 /* Resources */,
+			);
+			path = OrderNow;
+			sourceTree = "<group>";
+		};
+		CD7996281AD478400051CD95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7996291AD478400051CD95 /* Info.plist */,
+				CD79962A1AD478400051CD95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD7996411AD478400051CD95 /* OrderNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7996441AD478400051CD95 /* OrderNowTests.m */,
+				CD7996421AD478400051CD95 /* Supporting Files */,
+			);
+			path = OrderNowTests;
+			sourceTree = "<group>";
+		};
+		CD7996421AD478400051CD95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7996431AD478400051CD95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD7996681AD47DF60051CD95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD79966B1AD47E340051CD95 /* DataManager.h */,
+				CD79966C1AD47E340051CD95 /* DataManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CD79966A1AD47E0E0051CD95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD79965F1AD47D510051CD95 /* CustomTableViewCell.h */,
+				CD7996601AD47D510051CD95 /* CustomTableViewCell.m */,
+				CD7996501AD47C9B0051CD95 /* ComidasTableViewController.h */,
+				CD79962C1AD478400051CD95 /* AppDelegate.h */,
+				CD79962D1AD478400051CD95 /* AppDelegate.m */,
+				CD7996511AD47C9B0051CD95 /* ComidasTableViewController.m */,
+				CD7996531AD47CA80051CD95 /* BebidasTableViewController.h */,
+				CD7996541AD47CA80051CD95 /* BebidasTableViewController.m */,
+				CD7996561AD47CB40051CD95 /* SobremesasTableViewController.h */,
+				CD7996571AD47CB40051CD95 /* SobremesasTableViewController.m */,
+				CD7996591AD47CDA0051CD95 /* ConfirmarTableViewController.h */,
+				CD79965A1AD47CDA0051CD95 /* ConfirmarTableViewController.m */,
+				CD79965C1AD47CEA0051CD95 /* TimerViewController.h */,
+				CD79965D1AD47CEA0051CD95 /* TimerViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CD7996701AD47E630051CD95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD7996621AD47D600051CD95 /* comida.json */,
+				CD7996641AD47D740051CD95 /* bebidas.json */,
+				CD7996661AD47D850051CD95 /* sobremesas.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD7996711AD47E780051CD95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD7996351AD478400051CD95 /* Images.xcassets */,
+				CD7996321AD478400051CD95 /* Main.storyboard */,
+				CD79964E1AD47BF00051CD95 /* Storyboard2.storyboard */,
+				CD7996371AD478400051CD95 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7996241AD478400051CD95 /* OrderNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7996481AD478400051CD95 /* Build configuration list for PBXNativeTarget "OrderNow" */;
+			buildPhases = (
+				CD7996211AD478400051CD95 /* Sources */,
+				CD7996221AD478400051CD95 /* Frameworks */,
+				CD7996231AD478400051CD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderNow;
+			productName = OrderNow;
+			productReference = CD7996251AD478400051CD95 /* OrderNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD79963D1AD478400051CD95 /* OrderNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD79964B1AD478400051CD95 /* Build configuration list for PBXNativeTarget "OrderNowTests" */;
+			buildPhases = (
+				CD79963A1AD478400051CD95 /* Sources */,
+				CD79963B1AD478400051CD95 /* Frameworks */,
+				CD79963C1AD478400051CD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7996401AD478400051CD95 /* PBXTargetDependency */,
+			);
+			name = OrderNowTests;
+			productName = OrderNowTests;
+			productReference = CD79963E1AD478400051CD95 /* OrderNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD79961D1AD478400051CD95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Leonardo Geus";
+				TargetAttributes = {
+					CD7996241AD478400051CD95 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CD79963D1AD478400051CD95 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CD7996241AD478400051CD95;
+					};
+				};
+			};
+			buildConfigurationList = CD7996201AD478400051CD95 /* Build configuration list for PBXProject "OrderNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD79961C1AD478400051CD95;
+			productRefGroup = CD7996261AD478400051CD95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7996241AD478400051CD95 /* OrderNow */,
+				CD79963D1AD478400051CD95 /* OrderNowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7996231AD478400051CD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD79964F1AD47BF00051CD95 /* Storyboard2.storyboard in Resources */,
+				CD7996631AD47D600051CD95 /* comida.json in Resources */,
+				CD7996671AD47D850051CD95 /* sobremesas.json in Resources */,
+				CD7996651AD47D740051CD95 /* bebidas.json in Resources */,
+				CD7996341AD478400051CD95 /* Main.storyboard in Resources */,
+				CD7996391AD478400051CD95 /* LaunchScreen.xib in Resources */,
+				CD7996361AD478400051CD95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD79963C1AD478400051CD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7996211AD478400051CD95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD79965E1AD47CEA0051CD95 /* TimerViewController.m in Sources */,
+				CD7996551AD47CA80051CD95 /* BebidasTableViewController.m in Sources */,
+				CD79962E1AD478400051CD95 /* AppDelegate.m in Sources */,
+				CD7996581AD47CB40051CD95 /* SobremesasTableViewController.m in Sources */,
+				CD7996611AD47D510051CD95 /* CustomTableViewCell.m in Sources */,
+				CD7996521AD47C9B0051CD95 /* ComidasTableViewController.m in Sources */,
+				CD79965B1AD47CDA0051CD95 /* ConfirmarTableViewController.m in Sources */,
+				CD79966D1AD47E340051CD95 /* DataManager.m in Sources */,
+				CD79962B1AD478400051CD95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD79963A1AD478400051CD95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7996451AD478400051CD95 /* OrderNowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7996401AD478400051CD95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7996241AD478400051CD95 /* OrderNow */;
+			targetProxy = CD79963F1AD478400051CD95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7996321AD478400051CD95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7996331AD478400051CD95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7996371AD478400051CD95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7996381AD478400051CD95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7996461AD478400051CD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7996471AD478400051CD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7996491AD478400051CD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrderNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD79964A1AD478400051CD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrderNow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD79964C1AD478400051CD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrderNowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderNow.app/OrderNow";
+			};
+			name = Debug;
+		};
+		CD79964D1AD478400051CD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrderNowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderNow.app/OrderNow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7996201AD478400051CD95 /* Build configuration list for PBXProject "OrderNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7996461AD478400051CD95 /* Debug */,
+				CD7996471AD478400051CD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7996481AD478400051CD95 /* Build configuration list for PBXNativeTarget "OrderNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7996491AD478400051CD95 /* Debug */,
+				CD79964A1AD478400051CD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD79964B1AD478400051CD95 /* Build configuration list for PBXNativeTarget "OrderNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD79964C1AD478400051CD95 /* Debug */,
+				CD79964D1AD478400051CD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD79961D1AD478400051CD95 /* Project object */;
+}
