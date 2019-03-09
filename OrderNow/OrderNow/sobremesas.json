@@ -1,0 +1,8 @@
+{
+    "Sobremesas" : [
+                 { "nome": "Bolo napolitano", "imagem": "bolo_napolitano.jpg", "descricao":"Bolo com recheio de chocolate, morango e creme.","preco": 11.80, "tempo": 40.0  },
+                 { "nome": "Sensação de Morango", "imagem": "sensacao_framboesa.jpg", "descricao":"Bolacha crocante e recheio aerado de morango.","preco": 8.90, "tempo": 36.0  },
+                 { "nome": "Mousse Silvestre", "imagem": "mousse_framboesa.jpeg", "descricao":"Mousse de baunilha com calda de framboesa." ,"preco": 10.50, "tempo": 50.0 },
+                 { "nome": "Torta de Framboesa", "imagem": "torta_framboesa.jpg", "descricao":"Torta de bolacha com creme de framboesa." ,"preco": 12.80, "tempo": 36.0 },
+                 { "nome": "Petit Gateau", "imagem": "petit.jpg", "descricao":"Petit gateau com massa e calda de chocolate.","preco": 9.90, "tempo": 35.0  },
+                 ] }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T1Z-3G-SpM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T1Z-3G-SpM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Timer View Controller-->
         <scene sceneID="4I4-ee-2sz">
             <objects>
-                <viewController id="T1Z-3G-SpM" sceneMemberID="viewController">
+                <viewController id="T1Z-3G-SpM" customClass="TimerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Ku-UJ-9Lc"/>
                         <viewControllerLayoutGuide type="bottom" id="F9v-hB-KcB"/>
@@ -16,23 +16,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEMPOOO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rt-AT-ubL">
-                                <rect key="frame" x="257" y="290" width="86" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seu pedido foi recebido com sucesso." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rt-AT-ubL">
+                                <rect key="frame" x="149" y="73" width="303" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="303" id="39H-ey-eBH"/>
+                                    <constraint firstAttribute="height" constant="21" id="FvI-3b-NGO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxf-dp-VYd">
+                                <rect key="frame" x="149" y="451" width="303" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="vaQ-eM-BOL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="44"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.png" translatesAutoresizingMaskIntoConstraints="NO" id="BWc-up-6qJ">
+                                <rect key="frame" x="180" y="139" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="shY-ih-U9Z"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O tempo para o preparo é" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsy-eY-F2A">
+                                <rect key="frame" x="149" y="413" width="303" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="j1c-mI-ENa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="5rt-AT-ubL" secondAttribute="centerX" id="eKE-lE-9ik"/>
-                            <constraint firstAttribute="centerY" secondItem="5rt-AT-ubL" secondAttribute="centerY" id="rYe-sw-CPv"/>
+                            <constraint firstItem="5rt-AT-ubL" firstAttribute="top" secondItem="7Ku-UJ-9Lc" secondAttribute="bottom" constant="53" id="0ku-jF-xLI"/>
+                            <constraint firstItem="nxf-dp-VYd" firstAttribute="leading" secondItem="xsy-eY-F2A" secondAttribute="leading" id="G3W-Jp-0Ep"/>
+                            <constraint firstItem="xsy-eY-F2A" firstAttribute="top" secondItem="BWc-up-6qJ" secondAttribute="bottom" constant="34" id="JKQ-Id-89t"/>
+                            <constraint firstItem="nxf-dp-VYd" firstAttribute="top" secondItem="xsy-eY-F2A" secondAttribute="bottom" constant="17" id="PWp-h4-XkI"/>
+                            <constraint firstItem="xsy-eY-F2A" firstAttribute="leading" secondItem="5rt-AT-ubL" secondAttribute="leading" id="QGd-Be-edS"/>
+                            <constraint firstItem="BWc-up-6qJ" firstAttribute="top" secondItem="5rt-AT-ubL" secondAttribute="bottom" constant="45" id="RUb-dj-I9p"/>
+                            <constraint firstItem="xsy-eY-F2A" firstAttribute="trailing" secondItem="5rt-AT-ubL" secondAttribute="trailing" id="WLM-MM-7Ur"/>
+                            <constraint firstItem="xsy-eY-F2A" firstAttribute="centerX" secondItem="QKh-WR-gJx" secondAttribute="centerX" id="gGG-zR-LGv"/>
+                            <constraint firstItem="F9v-hB-KcB" firstAttribute="top" secondItem="nxf-dp-VYd" secondAttribute="bottom" constant="115" id="lz7-6j-fcH"/>
+                            <constraint firstItem="BWc-up-6qJ" firstAttribute="centerX" secondItem="xsy-eY-F2A" secondAttribute="centerX" id="mLB-cB-IND"/>
+                            <constraint firstItem="nxf-dp-VYd" firstAttribute="trailing" secondItem="xsy-eY-F2A" secondAttribute="trailing" id="zrx-5k-5Ch"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="timerlabel" destination="nxf-dp-VYd" id="Oyc-MW-3mw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="arN-Fl-9BA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="894" y="675"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="clock.png" width="435" height="435"/>
+    </resources>
 </document>

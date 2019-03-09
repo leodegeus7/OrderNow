@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SobremesasTableViewController : UITableViewController
+//@property (strong, nonatomic) IBOutlet UILabel *swipeSobremesasLabel;
 
 @end

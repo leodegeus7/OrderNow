@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DataManager.h"
+#import "Item.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self criarItensMenu:[[DataManager getDataManager]LoadJsonDictionaryFromFile:@"comidas"][@"Comidas"] tipo:0];
+
+    [self criarItensMenu:[[DataManager getDataManager]LoadJsonDictionaryFromFile:@"bebidas"][@"Bebidas"] tipo:1];
+    
+    [self criarItensMenu:[[DataManager getDataManager]LoadJsonDictionaryFromFile:@"sobremesas"][@"Sobremesas"] tipo:2];
+   // _singlePedidos=[[NSMutableArray alloc]init];
+    
     return YES;
+}
+
+- (void)criarItensMenu:(NSMutableArray *)itens tipo:(int)tipo {
+    NSMutableArray *listaTemp = [[NSMutableArray alloc]init];
+    for (int i = 0; i < itens.count; i++) {
+        [listaTemp addObject:[Item initComDicionario:itens[i]]];
+    }
+    
+    switch (tipo) {
+        case 0 :
+            [[[DataManager getDataManager]dict] setObject:listaTemp forKey:@"Comidas"];
+        break;
+        case 1 :
+            [[[DataManager getDataManager]dict] setObject:listaTemp forKey:@"Bebidas"];
+        break;
+        case 2 :
+            [[[DataManager getDataManager]dict] setObject:listaTemp forKey:@"Sobremesas"];
+        break;
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

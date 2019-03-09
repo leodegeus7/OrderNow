@@ -10,4 +10,11 @@
 
 @interface DataManager : NSObject
 
+@property NSMutableDictionary *dict;
+
++(id)getDataManager;
+-(NSMutableDictionary *)LoadJsonDictionaryFromFile:(NSString *)nomeArquivo;
+-(NSMutableArray *)LoadJsonArrayFromFile:(NSString *)nomeArquivo;
+
+
 @end

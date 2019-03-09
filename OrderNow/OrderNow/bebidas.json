@@ -1,0 +1,8 @@
+{
+    "Bebidas" : [
+                 { "nome": "Chopp", "imagem": "chopp.jpg", "descricao":"Chopp pilsen gelado de 500 ml.","preco": 11.85, "tempo": 20.0  },
+                 { "nome": "Cuba Libre", "imagem": "cuba.jpg", "descricao":"Rum e refrigerante de cola.","preco": 14.50, "tempo": 26.0  },
+                 { "nome": "Mojito", "imagem": "mojito.jpg", "descricao":"Rum, suco de limão e hortelã.","preco": 16.60, "tempo": 20.0  },
+                 { "nome": "Hibisco", "imagem": "hibisco.jpg", "descricao":"Champagnhe e flores de hibisco.","preco": 18.20, "tempo": 32.0  },
+                 { "nome": "Suco de Tomate", "imagem": "suco_de_tomate.jpg", "descricao":"Suco de tomate temperado com sal e pimenta.","preco": 10.50, "tempo": 20.0 },
+                 ] }

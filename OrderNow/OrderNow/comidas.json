@@ -1,0 +1,9 @@
+{
+    "Comidas" : [
+               { "nome": "Filé Tropical", "imagem": "file_framboesa.jpg", "descricao":"Filé bonivo assado com legumes e framboesas.","preco": 29.95, "tempo": 60.0  },
+               { "nome": "Frango Oriental", "imagem": "frango_chines.jpg", "descricao":"Frango gratinado com legumes e molho shoyu.","preco": 18.80, "tempo": 25.0  },
+               { "nome": "Filé Marroquino", "imagem": "file_marroquino.jpg", "descricao":"Filé bovino com purê de batata e cogumelo.","preco": 24.90, "tempo": 47.0  },
+               { "nome": "Cebola Entreé", "imagem": "cebola_assada.jpg", "descricao":"Cebola caramelizada com legumes refogados na manteiga.","preco": 8.95, "tempo": 56.0  },
+               { "nome": "Tilápia à Brasileira", "imagem": "tilapia.jpg", "descricao":"Filé de tilápia com batatas fritas e salada de folhas.","preco": 28.90, "tempo": 43.0  },
+               { "nome": "Sushi Beet", "imagem": "rolinho_beterraba.jpg", "descricao":"Sushi de alga kani-kama, beterraba e arroz.","preco": 12.90, "tempo": 40.0  },
+               ] }

@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30B217A61AD9AEE500C78197 /* berries.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217921AD9AEE500C78197 /* berries.jpg */; };
+		30B217A81AD9AEE500C78197 /* bolo_napolitano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217941AD9AEE500C78197 /* bolo_napolitano.jpg */; };
+		30B217AA1AD9AEE500C78197 /* cebola_assada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217961AD9AEE500C78197 /* cebola_assada.jpg */; };
+		30B217AB1AD9AEE500C78197 /* chopp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217971AD9AEE500C78197 /* chopp.jpg */; };
+		30B217AC1AD9AEE500C78197 /* cosmopolitan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217981AD9AEE500C78197 /* cosmopolitan.jpg */; };
+		30B217AD1AD9AEE500C78197 /* cuba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217991AD9AEE500C78197 /* cuba.jpg */; };
+		30B217AE1AD9AEE500C78197 /* file_framboesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B2179A1AD9AEE500C78197 /* file_framboesa.jpg */; };
+		30B217AF1AD9AEE500C78197 /* file_marroquino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B2179B1AD9AEE500C78197 /* file_marroquino.jpg */; };
+		30B217B01AD9AEE500C78197 /* frango_chines.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B2179C1AD9AEE500C78197 /* frango_chines.jpg */; };
+		30B217B11AD9AEE500C78197 /* hibisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B2179D1AD9AEE500C78197 /* hibisco.jpg */; };
+		30B217B21AD9AEE500C78197 /* mojito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B2179E1AD9AEE500C78197 /* mojito.jpg */; };
+		30B217B31AD9AEE500C78197 /* mousse_framboesa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 30B2179F1AD9AEE500C78197 /* mousse_framboesa.jpeg */; };
+		30B217B41AD9AEE500C78197 /* petit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217A01AD9AEE500C78197 /* petit.jpg */; };
+		30B217B51AD9AEE500C78197 /* rolinho_beterraba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217A11AD9AEE500C78197 /* rolinho_beterraba.jpg */; };
+		30B217B61AD9AEE500C78197 /* sensacao_framboesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217A21AD9AEE500C78197 /* sensacao_framboesa.jpg */; };
+		30B217B71AD9AEE500C78197 /* suco_de_tomate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217A31AD9AEE500C78197 /* suco_de_tomate.jpg */; };
+		30B217B81AD9AEE500C78197 /* tilapia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217A41AD9AEE500C78197 /* tilapia.jpg */; };
+		30B217B91AD9AEE500C78197 /* torta_framboesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30B217A51AD9AEE500C78197 /* torta_framboesa.jpg */; };
+		30B5F9D51AD9AAE200BBC53E /* PedidosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B5F9D41AD9AAE200BBC53E /* PedidosTableViewCell.m */; };
+		87F423791AD5D0C000B52403 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F423781AD5D0C000B52403 /* Item.m */; };
+		8C4BA1061ADB982500948F23 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4BA1051ADB982500948F23 /* clock.png */; };
+		8CB3531F1ADB72FE00948E48 /* icone_bebidas.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB3531B1ADB72FE00948E48 /* icone_bebidas.png */; };
+		8CB353201ADB72FE00948E48 /* icone_lista.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB3531C1ADB72FE00948E48 /* icone_lista.png */; };
+		8CB353211ADB72FE00948E48 /* icone_pratos.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB3531D1ADB72FE00948E48 /* icone_pratos.png */; };
+		8CB353221ADB72FE00948E48 /* icone_sobtemesas.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB3531E1ADB72FE00948E48 /* icone_sobtemesas.png */; };
 		CD79962B1AD478400051CD95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79962A1AD478400051CD95 /* main.m */; };
 		CD79962E1AD478400051CD95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79962D1AD478400051CD95 /* AppDelegate.m */; };
 		CD7996341AD478400051CD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7996321AD478400051CD95 /* Main.storyboard */; };
@@ -20,10 +45,37 @@
 		CD79965B1AD47CDA0051CD95 /* ConfirmarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79965A1AD47CDA0051CD95 /* ConfirmarTableViewController.m */; };
 		CD79965E1AD47CEA0051CD95 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79965D1AD47CEA0051CD95 /* TimerViewController.m */; };
 		CD7996611AD47D510051CD95 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7996601AD47D510051CD95 /* CustomTableViewCell.m */; };
-		CD7996631AD47D600051CD95 /* comida.json in Resources */ = {isa = PBXBuildFile; fileRef = CD7996621AD47D600051CD95 /* comida.json */; };
+		CD7996631AD47D600051CD95 /* comidas.json in Resources */ = {isa = PBXBuildFile; fileRef = CD7996621AD47D600051CD95 /* comidas.json */; };
 		CD7996651AD47D740051CD95 /* bebidas.json in Resources */ = {isa = PBXBuildFile; fileRef = CD7996641AD47D740051CD95 /* bebidas.json */; };
 		CD7996671AD47D850051CD95 /* sobremesas.json in Resources */ = {isa = PBXBuildFile; fileRef = CD7996661AD47D850051CD95 /* sobremesas.json */; };
 		CD79966D1AD47E340051CD95 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD79966C1AD47E340051CD95 /* DataManager.m */; };
+		CD9A58621AD4A2DD0004498D /* teste.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58611AD4A2DD0004498D /* teste.jpg */; };
+		CD9A58691AD4B1250004498D /* comida1.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58681AD4B1250004498D /* comida1.txt */; };
+		CD9A586B1AD4B12D0004498D /* comida2.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A586A1AD4B12D0004498D /* comida2.txt */; };
+		CD9A586D1AD4B13D0004498D /* comida3.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A586C1AD4B13D0004498D /* comida3.txt */; };
+		CD9A58701AD4B1510004498D /* comida5.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A586F1AD4B1510004498D /* comida5.txt */; };
+		CD9A58721AD4B15C0004498D /* comida4.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58711AD4B15C0004498D /* comida4.txt */; };
+		CD9A58741AD4B1C70004498D /* bebida1.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58731AD4B1C70004498D /* bebida1.txt */; };
+		CD9A58761AD4B1D10004498D /* bebida2.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58751AD4B1D10004498D /* bebida2.txt */; };
+		CD9A58781AD4B1DB0004498D /* bebida3.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58771AD4B1DB0004498D /* bebida3.txt */; };
+		CD9A587A1AD4B1E40004498D /* bebida4.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58791AD4B1E40004498D /* bebida4.txt */; };
+		CD9A587C1AD4B1EE0004498D /* bebida5.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A587B1AD4B1EE0004498D /* bebida5.txt */; };
+		CD9A587E1AD4B1FB0004498D /* sobremesa1.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A587D1AD4B1FB0004498D /* sobremesa1.txt */; };
+		CD9A58801AD4B2080004498D /* sobremesa2.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A587F1AD4B2080004498D /* sobremesa2.txt */; };
+		CD9A58821AD4B2120004498D /* sobremesa3.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58811AD4B2120004498D /* sobremesa3.txt */; };
+		CD9A58841AD4B21C0004498D /* sobremesa4.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58831AD4B21B0004498D /* sobremesa4.txt */; };
+		CD9A58861AD4B2260004498D /* sobremesa5.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58851AD4B2260004498D /* sobremesa5.txt */; };
+		CD9A58881AD4B2620004498D /* comida6.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9A58871AD4B2620004498D /* comida6.txt */; };
+		CDDD4DE61ADC3874005D2650 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DCE1ADC3874005D2650 /* MASCompositeConstraint.m */; };
+		CDDD4DE71ADC3874005D2650 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DD11ADC3874005D2650 /* MASConstraint.m */; };
+		CDDD4DE81ADC3874005D2650 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DD31ADC3874005D2650 /* MASConstraintMaker.m */; };
+		CDDD4DE91ADC3874005D2650 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DD51ADC3874005D2650 /* MASLayoutConstraint.m */; };
+		CDDD4DEA1ADC3874005D2650 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DD91ADC3874005D2650 /* MASViewAttribute.m */; };
+		CDDD4DEB1ADC3874005D2650 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DDB1ADC3874005D2650 /* MASViewConstraint.m */; };
+		CDDD4DEC1ADC3874005D2650 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DDD1ADC3874005D2650 /* NSArray+MASAdditions.m */; };
+		CDDD4DED1ADC3874005D2650 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DE01ADC3874005D2650 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		CDDD4DEE1ADC3874005D2650 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DE21ADC3874005D2650 /* View+MASAdditions.m */; };
+		CDDD4DEF1ADC3874005D2650 /* TimeLineViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD4DE51ADC3874005D2650 /* TimeLineViewControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +89,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30B217921AD9AEE500C78197 /* berries.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berries.jpg; sourceTree = "<group>"; };
+		30B217941AD9AEE500C78197 /* bolo_napolitano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bolo_napolitano.jpg; sourceTree = "<group>"; };
+		30B217961AD9AEE500C78197 /* cebola_assada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cebola_assada.jpg; sourceTree = "<group>"; };
+		30B217971AD9AEE500C78197 /* chopp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chopp.jpg; sourceTree = "<group>"; };
+		30B217981AD9AEE500C78197 /* cosmopolitan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cosmopolitan.jpg; sourceTree = "<group>"; };
+		30B217991AD9AEE500C78197 /* cuba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cuba.jpg; sourceTree = "<group>"; };
+		30B2179A1AD9AEE500C78197 /* file_framboesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = file_framboesa.jpg; sourceTree = "<group>"; };
+		30B2179B1AD9AEE500C78197 /* file_marroquino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = file_marroquino.jpg; sourceTree = "<group>"; };
+		30B2179C1AD9AEE500C78197 /* frango_chines.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frango_chines.jpg; sourceTree = "<group>"; };
+		30B2179D1AD9AEE500C78197 /* hibisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hibisco.jpg; sourceTree = "<group>"; };
+		30B2179E1AD9AEE500C78197 /* mojito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mojito.jpg; sourceTree = "<group>"; };
+		30B2179F1AD9AEE500C78197 /* mousse_framboesa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mousse_framboesa.jpeg; sourceTree = "<group>"; };
+		30B217A01AD9AEE500C78197 /* petit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petit.jpg; sourceTree = "<group>"; };
+		30B217A11AD9AEE500C78197 /* rolinho_beterraba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rolinho_beterraba.jpg; sourceTree = "<group>"; };
+		30B217A21AD9AEE500C78197 /* sensacao_framboesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sensacao_framboesa.jpg; sourceTree = "<group>"; };
+		30B217A31AD9AEE500C78197 /* suco_de_tomate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suco_de_tomate.jpg; sourceTree = "<group>"; };
+		30B217A41AD9AEE500C78197 /* tilapia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tilapia.jpg; sourceTree = "<group>"; };
+		30B217A51AD9AEE500C78197 /* torta_framboesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torta_framboesa.jpg; sourceTree = "<group>"; };
+		30B5F9D31AD9AAE200BBC53E /* PedidosTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedidosTableViewCell.h; sourceTree = "<group>"; };
+		30B5F9D41AD9AAE200BBC53E /* PedidosTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedidosTableViewCell.m; sourceTree = "<group>"; };
+		87F423771AD5D0C000B52403 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		87F423781AD5D0C000B52403 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		8C4BA1051ADB982500948F23 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		8CB3531B1ADB72FE00948E48 /* icone_bebidas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone_bebidas.png; sourceTree = "<group>"; };
+		8CB3531C1ADB72FE00948E48 /* icone_lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone_lista.png; sourceTree = "<group>"; };
+		8CB3531D1ADB72FE00948E48 /* icone_pratos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone_pratos.png; sourceTree = "<group>"; };
+		8CB3531E1ADB72FE00948E48 /* icone_sobtemesas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone_sobtemesas.png; sourceTree = "<group>"; };
 		CD7996251AD478400051CD95 /* OrderNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7996291AD478400051CD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD79962A1AD478400051CD95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,11 +140,53 @@
 		CD79965D1AD47CEA0051CD95 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		CD79965F1AD47D510051CD95 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		CD7996601AD47D510051CD95 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
-		CD7996621AD47D600051CD95 /* comida.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = comida.json; sourceTree = "<group>"; };
+		CD7996621AD47D600051CD95 /* comidas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = comidas.json; sourceTree = "<group>"; };
 		CD7996641AD47D740051CD95 /* bebidas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bebidas.json; sourceTree = "<group>"; };
 		CD7996661AD47D850051CD95 /* sobremesas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sobremesas.json; sourceTree = "<group>"; };
 		CD79966B1AD47E340051CD95 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		CD79966C1AD47E340051CD95 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		CD9A58611AD4A2DD0004498D /* teste.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teste.jpg; sourceTree = "<group>"; };
+		CD9A58681AD4B1250004498D /* comida1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comida1.txt; sourceTree = "<group>"; };
+		CD9A586A1AD4B12D0004498D /* comida2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comida2.txt; sourceTree = "<group>"; };
+		CD9A586C1AD4B13D0004498D /* comida3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comida3.txt; sourceTree = "<group>"; };
+		CD9A586F1AD4B1510004498D /* comida5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comida5.txt; sourceTree = "<group>"; };
+		CD9A58711AD4B15C0004498D /* comida4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comida4.txt; sourceTree = "<group>"; };
+		CD9A58731AD4B1C70004498D /* bebida1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bebida1.txt; sourceTree = "<group>"; };
+		CD9A58751AD4B1D10004498D /* bebida2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bebida2.txt; sourceTree = "<group>"; };
+		CD9A58771AD4B1DB0004498D /* bebida3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bebida3.txt; sourceTree = "<group>"; };
+		CD9A58791AD4B1E40004498D /* bebida4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bebida4.txt; sourceTree = "<group>"; };
+		CD9A587B1AD4B1EE0004498D /* bebida5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bebida5.txt; sourceTree = "<group>"; };
+		CD9A587D1AD4B1FB0004498D /* sobremesa1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sobremesa1.txt; sourceTree = "<group>"; };
+		CD9A587F1AD4B2080004498D /* sobremesa2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sobremesa2.txt; sourceTree = "<group>"; };
+		CD9A58811AD4B2120004498D /* sobremesa3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sobremesa3.txt; sourceTree = "<group>"; };
+		CD9A58831AD4B21B0004498D /* sobremesa4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sobremesa4.txt; sourceTree = "<group>"; };
+		CD9A58851AD4B2260004498D /* sobremesa5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sobremesa5.txt; sourceTree = "<group>"; };
+		CD9A58871AD4B2620004498D /* comida6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comida6.txt; sourceTree = "<group>"; };
+		CDDD4DCD1ADC3874005D2650 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		CDDD4DCE1ADC3874005D2650 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		CDDD4DCF1ADC3874005D2650 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		CDDD4DD01ADC3874005D2650 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		CDDD4DD11ADC3874005D2650 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		CDDD4DD21ADC3874005D2650 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		CDDD4DD31ADC3874005D2650 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		CDDD4DD41ADC3874005D2650 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		CDDD4DD51ADC3874005D2650 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CDDD4DD61ADC3874005D2650 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		CDDD4DD71ADC3874005D2650 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		CDDD4DD81ADC3874005D2650 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		CDDD4DD91ADC3874005D2650 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		CDDD4DDA1ADC3874005D2650 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		CDDD4DDB1ADC3874005D2650 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		CDDD4DDC1ADC3874005D2650 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		CDDD4DDD1ADC3874005D2650 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		CDDD4DDE1ADC3874005D2650 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CDDD4DDF1ADC3874005D2650 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		CDDD4DE01ADC3874005D2650 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		CDDD4DE11ADC3874005D2650 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		CDDD4DE21ADC3874005D2650 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		CDDD4DE31ADC3874005D2650 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CDDD4DE41ADC3874005D2650 /* TimeLineViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineViewControl.h; sourceTree = "<group>"; };
+		CDDD4DE51ADC3874005D2650 /* TimeLineViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineViewControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +207,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30B217BA1AD9AEEC00C78197 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8CB353241ADB731200948E48 /* Icones */,
+				8CB353261ADB736B00948E48 /* Sobremesas */,
+				8CB353281ADB739900948E48 /* Pratos */,
+				8CB353271ADB738F00948E48 /* Bebidas */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8CB353241ADB731200948E48 /* Icones */ = {
+			isa = PBXGroup;
+			children = (
+				8C4BA1051ADB982500948F23 /* clock.png */,
+				8CB3531B1ADB72FE00948E48 /* icone_bebidas.png */,
+				8CB3531C1ADB72FE00948E48 /* icone_lista.png */,
+				8CB3531D1ADB72FE00948E48 /* icone_pratos.png */,
+				8CB3531E1ADB72FE00948E48 /* icone_sobtemesas.png */,
+			);
+			name = Icones;
+			sourceTree = "<group>";
+		};
+		8CB353261ADB736B00948E48 /* Sobremesas */ = {
+			isa = PBXGroup;
+			children = (
+				30B217A01AD9AEE500C78197 /* petit.jpg */,
+				30B217921AD9AEE500C78197 /* berries.jpg */,
+				30B217941AD9AEE500C78197 /* bolo_napolitano.jpg */,
+				30B2179F1AD9AEE500C78197 /* mousse_framboesa.jpeg */,
+				30B217A21AD9AEE500C78197 /* sensacao_framboesa.jpg */,
+				30B217A51AD9AEE500C78197 /* torta_framboesa.jpg */,
+			);
+			name = Sobremesas;
+			sourceTree = "<group>";
+		};
+		8CB353271ADB738F00948E48 /* Bebidas */ = {
+			isa = PBXGroup;
+			children = (
+				30B217971AD9AEE500C78197 /* chopp.jpg */,
+				30B217981AD9AEE500C78197 /* cosmopolitan.jpg */,
+				30B217991AD9AEE500C78197 /* cuba.jpg */,
+				30B2179D1AD9AEE500C78197 /* hibisco.jpg */,
+				30B2179E1AD9AEE500C78197 /* mojito.jpg */,
+				30B217A31AD9AEE500C78197 /* suco_de_tomate.jpg */,
+			);
+			name = Bebidas;
+			sourceTree = "<group>";
+		};
+		8CB353281ADB739900948E48 /* Pratos */ = {
+			isa = PBXGroup;
+			children = (
+				30B217961AD9AEE500C78197 /* cebola_assada.jpg */,
+				30B2179A1AD9AEE500C78197 /* file_framboesa.jpg */,
+				30B2179B1AD9AEE500C78197 /* file_marroquino.jpg */,
+				30B2179C1AD9AEE500C78197 /* frango_chines.jpg */,
+				30B217A11AD9AEE500C78197 /* rolinho_beterraba.jpg */,
+				30B217A41AD9AEE500C78197 /* tilapia.jpg */,
+			);
+			name = Pratos;
+			sourceTree = "<group>";
+		};
 		CD79961C1AD478400051CD95 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +330,8 @@
 			children = (
 				CD79966B1AD47E340051CD95 /* DataManager.h */,
 				CD79966C1AD47E340051CD95 /* DataManager.m */,
+				87F423771AD5D0C000B52403 /* Item.h */,
+				87F423781AD5D0C000B52403 /* Item.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -156,9 +341,9 @@
 			children = (
 				CD79965F1AD47D510051CD95 /* CustomTableViewCell.h */,
 				CD7996601AD47D510051CD95 /* CustomTableViewCell.m */,
-				CD7996501AD47C9B0051CD95 /* ComidasTableViewController.h */,
 				CD79962C1AD478400051CD95 /* AppDelegate.h */,
 				CD79962D1AD478400051CD95 /* AppDelegate.m */,
+				CD7996501AD47C9B0051CD95 /* ComidasTableViewController.h */,
 				CD7996511AD47C9B0051CD95 /* ComidasTableViewController.m */,
 				CD7996531AD47CA80051CD95 /* BebidasTableViewController.h */,
 				CD7996541AD47CA80051CD95 /* BebidasTableViewController.m */,
@@ -168,6 +353,8 @@
 				CD79965A1AD47CDA0051CD95 /* ConfirmarTableViewController.m */,
 				CD79965C1AD47CEA0051CD95 /* TimerViewController.h */,
 				CD79965D1AD47CEA0051CD95 /* TimerViewController.m */,
+				30B5F9D31AD9AAE200BBC53E /* PedidosTableViewCell.h */,
+				30B5F9D41AD9AAE200BBC53E /* PedidosTableViewCell.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -175,7 +362,15 @@
 		CD7996701AD47E630051CD95 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CD7996621AD47D600051CD95 /* comida.json */,
+				CDDD4DCC1ADC3874005D2650 /* Masonry */,
+				CDDD4DE41ADC3874005D2650 /* TimeLineViewControl.h */,
+				CDDD4DE51ADC3874005D2650 /* TimeLineViewControl.m */,
+				30B217BA1AD9AEEC00C78197 /* Images */,
+				CD9A58651AD4B0F30004498D /* comidas */,
+				CD9A58671AD4B1020004498D /* sobremesas */,
+				CD9A58661AD4B0FC0004498D /* bebidas */,
+				CD9A58611AD4A2DD0004498D /* teste.jpg */,
+				CD7996621AD47D600051CD95 /* comidas.json */,
 				CD7996641AD47D740051CD95 /* bebidas.json */,
 				CD7996661AD47D850051CD95 /* sobremesas.json */,
 			);
@@ -191,6 +386,73 @@
 				CD7996371AD478400051CD95 /* LaunchScreen.xib */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		CD9A58651AD4B0F30004498D /* comidas */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A58681AD4B1250004498D /* comida1.txt */,
+				CD9A586A1AD4B12D0004498D /* comida2.txt */,
+				CD9A586C1AD4B13D0004498D /* comida3.txt */,
+				CD9A58711AD4B15C0004498D /* comida4.txt */,
+				CD9A586F1AD4B1510004498D /* comida5.txt */,
+				CD9A58871AD4B2620004498D /* comida6.txt */,
+			);
+			name = comidas;
+			sourceTree = "<group>";
+		};
+		CD9A58661AD4B0FC0004498D /* bebidas */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A58731AD4B1C70004498D /* bebida1.txt */,
+				CD9A58751AD4B1D10004498D /* bebida2.txt */,
+				CD9A58771AD4B1DB0004498D /* bebida3.txt */,
+				CD9A58791AD4B1E40004498D /* bebida4.txt */,
+				CD9A587B1AD4B1EE0004498D /* bebida5.txt */,
+			);
+			name = bebidas;
+			sourceTree = "<group>";
+		};
+		CD9A58671AD4B1020004498D /* sobremesas */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A587D1AD4B1FB0004498D /* sobremesa1.txt */,
+				CD9A587F1AD4B2080004498D /* sobremesa2.txt */,
+				CD9A58811AD4B2120004498D /* sobremesa3.txt */,
+				CD9A58831AD4B21B0004498D /* sobremesa4.txt */,
+				CD9A58851AD4B2260004498D /* sobremesa5.txt */,
+			);
+			name = sobremesas;
+			sourceTree = "<group>";
+		};
+		CDDD4DCC1ADC3874005D2650 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				CDDD4DCD1ADC3874005D2650 /* MASCompositeConstraint.h */,
+				CDDD4DCE1ADC3874005D2650 /* MASCompositeConstraint.m */,
+				CDDD4DCF1ADC3874005D2650 /* MASConstraint+Private.h */,
+				CDDD4DD01ADC3874005D2650 /* MASConstraint.h */,
+				CDDD4DD11ADC3874005D2650 /* MASConstraint.m */,
+				CDDD4DD21ADC3874005D2650 /* MASConstraintMaker.h */,
+				CDDD4DD31ADC3874005D2650 /* MASConstraintMaker.m */,
+				CDDD4DD41ADC3874005D2650 /* MASLayoutConstraint.h */,
+				CDDD4DD51ADC3874005D2650 /* MASLayoutConstraint.m */,
+				CDDD4DD61ADC3874005D2650 /* Masonry.h */,
+				CDDD4DD71ADC3874005D2650 /* MASUtilities.h */,
+				CDDD4DD81ADC3874005D2650 /* MASViewAttribute.h */,
+				CDDD4DD91ADC3874005D2650 /* MASViewAttribute.m */,
+				CDDD4DDA1ADC3874005D2650 /* MASViewConstraint.h */,
+				CDDD4DDB1ADC3874005D2650 /* MASViewConstraint.m */,
+				CDDD4DDC1ADC3874005D2650 /* NSArray+MASAdditions.h */,
+				CDDD4DDD1ADC3874005D2650 /* NSArray+MASAdditions.m */,
+				CDDD4DDE1ADC3874005D2650 /* NSArray+MASShorthandAdditions.h */,
+				CDDD4DDF1ADC3874005D2650 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				CDDD4DE01ADC3874005D2650 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CDDD4DE11ADC3874005D2650 /* View+MASAdditions.h */,
+				CDDD4DE21ADC3874005D2650 /* View+MASAdditions.m */,
+				CDDD4DE31ADC3874005D2650 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +504,7 @@
 				TargetAttributes = {
 					CD7996241AD478400051CD95 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 4V6XCMA27T;
 					};
 					CD79963D1AD478400051CD95 = {
 						CreatedOnToolsVersion = 6.2;
@@ -273,13 +536,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B217AC1AD9AEE500C78197 /* cosmopolitan.jpg in Resources */,
 				CD79964F1AD47BF00051CD95 /* Storyboard2.storyboard in Resources */,
-				CD7996631AD47D600051CD95 /* comida.json in Resources */,
+				CD9A586D1AD4B13D0004498D /* comida3.txt in Resources */,
+				30B217B91AD9AEE500C78197 /* torta_framboesa.jpg in Resources */,
+				8CB3531F1ADB72FE00948E48 /* icone_bebidas.png in Resources */,
+				8C4BA1061ADB982500948F23 /* clock.png in Resources */,
+				30B217A61AD9AEE500C78197 /* berries.jpg in Resources */,
+				30B217B61AD9AEE500C78197 /* sensacao_framboesa.jpg in Resources */,
+				CD9A58761AD4B1D10004498D /* bebida2.txt in Resources */,
+				CD9A58741AD4B1C70004498D /* bebida1.txt in Resources */,
+				8CB353221ADB72FE00948E48 /* icone_sobtemesas.png in Resources */,
+				30B217AB1AD9AEE500C78197 /* chopp.jpg in Resources */,
+				CD7996631AD47D600051CD95 /* comidas.json in Resources */,
 				CD7996671AD47D850051CD95 /* sobremesas.json in Resources */,
+				CD9A58821AD4B2120004498D /* sobremesa3.txt in Resources */,
+				CD9A58801AD4B2080004498D /* sobremesa2.txt in Resources */,
+				30B217B71AD9AEE500C78197 /* suco_de_tomate.jpg in Resources */,
+				CD9A587E1AD4B1FB0004498D /* sobremesa1.txt in Resources */,
+				30B217B41AD9AEE500C78197 /* petit.jpg in Resources */,
+				30B217B81AD9AEE500C78197 /* tilapia.jpg in Resources */,
+				CD9A58721AD4B15C0004498D /* comida4.txt in Resources */,
+				30B217B11AD9AEE500C78197 /* hibisco.jpg in Resources */,
+				8CB353211ADB72FE00948E48 /* icone_pratos.png in Resources */,
+				30B217B21AD9AEE500C78197 /* mojito.jpg in Resources */,
+				CD9A58881AD4B2620004498D /* comida6.txt in Resources */,
+				8CB353201ADB72FE00948E48 /* icone_lista.png in Resources */,
+				30B217A81AD9AEE500C78197 /* bolo_napolitano.jpg in Resources */,
+				CD9A587A1AD4B1E40004498D /* bebida4.txt in Resources */,
+				30B217AD1AD9AEE500C78197 /* cuba.jpg in Resources */,
+				CD9A58621AD4A2DD0004498D /* teste.jpg in Resources */,
+				CD9A58691AD4B1250004498D /* comida1.txt in Resources */,
+				30B217B01AD9AEE500C78197 /* frango_chines.jpg in Resources */,
 				CD7996651AD47D740051CD95 /* bebidas.json in Resources */,
 				CD7996341AD478400051CD95 /* Main.storyboard in Resources */,
+				30B217AE1AD9AEE500C78197 /* file_framboesa.jpg in Resources */,
 				CD7996391AD478400051CD95 /* LaunchScreen.xib in Resources */,
+				30B217B31AD9AEE500C78197 /* mousse_framboesa.jpeg in Resources */,
 				CD7996361AD478400051CD95 /* Images.xcassets in Resources */,
+				CD9A58861AD4B2260004498D /* sobremesa5.txt in Resources */,
+				CD9A58701AD4B1510004498D /* comida5.txt in Resources */,
+				CD9A58781AD4B1DB0004498D /* bebida3.txt in Resources */,
+				30B217AA1AD9AEE500C78197 /* cebola_assada.jpg in Resources */,
+				30B217AF1AD9AEE500C78197 /* file_marroquino.jpg in Resources */,
+				CD9A58841AD4B21C0004498D /* sobremesa4.txt in Resources */,
+				CD9A587C1AD4B1EE0004498D /* bebida5.txt in Resources */,
+				30B217B51AD9AEE500C78197 /* rolinho_beterraba.jpg in Resources */,
+				CD9A586B1AD4B12D0004498D /* comida2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,15 +600,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F423791AD5D0C000B52403 /* Item.m in Sources */,
+				CDDD4DEF1ADC3874005D2650 /* TimeLineViewControl.m in Sources */,
 				CD79965E1AD47CEA0051CD95 /* TimerViewController.m in Sources */,
+				30B5F9D51AD9AAE200BBC53E /* PedidosTableViewCell.m in Sources */,
 				CD7996551AD47CA80051CD95 /* BebidasTableViewController.m in Sources */,
+				CDDD4DE61ADC3874005D2650 /* MASCompositeConstraint.m in Sources */,
 				CD79962E1AD478400051CD95 /* AppDelegate.m in Sources */,
+				CDDD4DEB1ADC3874005D2650 /* MASViewConstraint.m in Sources */,
 				CD7996581AD47CB40051CD95 /* SobremesasTableViewController.m in Sources */,
+				CDDD4DEE1ADC3874005D2650 /* View+MASAdditions.m in Sources */,
+				CDDD4DED1ADC3874005D2650 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				CDDD4DE91ADC3874005D2650 /* MASLayoutConstraint.m in Sources */,
+				CDDD4DE81ADC3874005D2650 /* MASConstraintMaker.m in Sources */,
 				CD7996611AD47D510051CD95 /* CustomTableViewCell.m in Sources */,
 				CD7996521AD47C9B0051CD95 /* ComidasTableViewController.m in Sources */,
 				CD79965B1AD47CDA0051CD95 /* ConfirmarTableViewController.m in Sources */,
 				CD79966D1AD47E340051CD95 /* DataManager.m in Sources */,
+				CDDD4DEC1ADC3874005D2650 /* NSArray+MASAdditions.m in Sources */,
+				CDDD4DEA1ADC3874005D2650 /* MASViewAttribute.m in Sources */,
 				CD79962B1AD478400051CD95 /* main.m in Sources */,
+				CDDD4DE71ADC3874005D2650 /* MASConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +732,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,9 +744,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OrderNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -439,9 +757,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OrderNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -498,6 +819,7 @@
 				CD79964A1AD478400051CD95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD79964B1AD478400051CD95 /* Build configuration list for PBXNativeTarget "OrderNowTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +828,7 @@
 				CD79964D1AD478400051CD95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
